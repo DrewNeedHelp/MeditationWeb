@@ -13,14 +13,32 @@
     <div class="app">
         <div class="focus">
             <h1>Focus</h1>
+            <div>
+
+            </div>
         </div>
-        <div>
+        <div class="audio">
             <h1>audio</h1>
+            <audio id="audio" src="Audio/meditation-amp-relax-238980.mp3" type="audio/mp3"></audio>
+            <img src="image\play.png" alt="" onclick="play()">
+
+            <script>
+                function play(){
+                    document.getElementById('audio').play();
+                }
+            </script>
+
         </div>
+
+
         <div class="video-button">
             <h1>Video-button</h1>
+            <img src="image\nature.png" alt="">
+            <img src="image\Surreal-American-River.png" alt="">
         </div>
 
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
